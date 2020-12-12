@@ -1,0 +1,22 @@
+{
+  "name": "pixi_interactive_menu",
+  "version": "1.0.0",
+  "description": "Learning project to play a little with PIXI",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damiannelus/pixi_interactive_menu.git"
+  },
+  "author": "Damian Drewulski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damiannelus/pixi_interactive_menu/issues"
+  },
+  "homepage": "https://github.com/damiannelus/pixi_interactive_menu#readme",
+  "dependencies": {
+    "pixi.js": "^5.3.3"
+  }
+}
