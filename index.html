@@ -1,19 +1,39 @@
-<body>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/loader.css">
+    <link rel="stylesheet" href="/css/animated_menu.css">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"> </script>
+    <script src="/animation_js/loader.js"></script>
+    <script src="/animation_js/animated_menu.js"></script>
+    <button onclick="animLoader()">PUSH THE BUTTON ⚡</button>
     <div class="wrapper">
-  
-      <!--  loader start  -->
-  
-      <div class="loader" id="js-loader">
-  
-        <div class="loader__cube" id="js-loader-cube"></div>
-  
-        <div class="loader__line" id="js-loader-line"></div>
-  
+        <div class="loader" id="js-loader">
+            <div class="loader__cube" id="js-loader-cube"></div>
+            <div class="loader__line" id="js-loader-line"></div>
+        </div>
+    
+    </div>
+    <div class="nav-toggle">
+        <div class="nav-toggle-bar"></div>
       </div>
-  
-      <!--  loader end  -->
-  
-  </div>
-  
-  </body>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+</body>
+
+</html>
